@@ -13,7 +13,7 @@
   border: 1px solid;
   border-radius: 6px;
   border-color: rgb(217 218 220);
-  background-color: #fafbfc;
+  background-color: var(--gris-claro);
   cursor: pointer;
 }
 
@@ -35,7 +35,7 @@
   border: 1px solid;
   border-radius: 6px;
   border-color: rgb(217 218 220);
-  background-color: #fafbfc;
+  background-color: var(--gris-claro);
   cursor: pointer;
 }
 
