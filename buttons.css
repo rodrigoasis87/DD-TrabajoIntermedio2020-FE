@@ -1,0 +1,49 @@
+.span-button {
+  display: inline-block;
+  width: 100%;
+}
+
+.generic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 28px;
+  color: var(--gris-oscuro);
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: rgb(217 218 220);
+  background-color: #fafbfc;
+  cursor: pointer;
+}
+
+.specific-button {
+  padding: 3px 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.specific-button-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 5px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gris-oscuro);
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: rgb(217 218 220);
+  background-color: #fafbfc;
+  cursor: pointer;
+}
+
+.mini-button {
+  border: none;
+  height: 16px;
+  margin-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
