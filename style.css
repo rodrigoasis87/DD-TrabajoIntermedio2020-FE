@@ -19,6 +19,10 @@ html body {
 
 :root {
   --gris-oscuro: #24292e;
+  --auzl-electrico: #0366d6;
+  --gris-medio: #586069;
+  --gris-claro: #fafbfc;
+  --gris-borde: #e1e4e8;
 }
 
 /*aplicación fuente de letra genérica del tipo sans-serif ya que no pude ubicar la misma que usa la página*/
@@ -37,6 +41,8 @@ a {
   text-decoration: none;
 }
 
+/*clase genérica para reutilizar display flex*/
+
 .box-start {
   display: flex;
   justify-content: space-between;
@@ -50,11 +56,13 @@ a {
 .grey-section {
   padding-top: 16px;
   margin-bottom: 32px;
-  background-color: #fafbfc;
+  background-color: var(--gris-claro);
   border-bottom-style: solid;
-  border-bottom-color: #e1e4e8;
+  border-bottom-color: var(--gris-borde);
   border-bottom-width: 1px;
 }
+
+/*márgenes genéricos para divs contenedores en secciones*/
 
 .box-size {
   padding-left: 16px;
@@ -62,22 +70,41 @@ a {
   margin-bottom: 16px;
 }
 
-h1 {
+.title {
   display: block;
   font-size: 18px;
   font-weight: 400;
   padding: 0;
   margin: 0;
-  color: #0366d6;
+  color: var(--auzl-electrico);
   vertical-align: middle;
 }
 
+.margin-title {
+  margin: 0;
+}
+
 .bar {
-  color: #586069;
+  color: var(--gris-medio);
 }
 
 .strong-weight {
   font-weight: 600;
+}
+
+.title-padding {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.margin-bot {
+  margin-bottom: 16px;
+}
+
+.margin-right {
+  margin-right: 3px;
 }
 
 .wrap {
@@ -89,7 +116,7 @@ h1 {
   align-self: flex-end;
   vertical-align: middle;
   margin-right: 4px;
-  fill: #586069;
+  fill: var(--gris-medio);
 }
 
 .icon-margin {
@@ -108,7 +135,7 @@ h1 {
 .box-2 {
   display: flex;
   justify-content: flex-start;
-  color: #586069;
+  color: var(--gris-medio);
 }
 
 .box-3 {
@@ -142,7 +169,7 @@ ul {
   padding-right: 16px;
   font-size: 13px;
   border: none;
-  background-color: #fafbfc;
+  background-color: var(--gris-claro);
   color: var(--gris-oscuro);
   cursor: pointer;
 }
@@ -155,15 +182,10 @@ ul {
 }
 
 .second-section {
-  margin-bottom: 32px;
   background-color: #fff;
   border-bottom-style: solid;
-  border-bottom-color: #e1e4e8;
+  border-bottom-color: var(--gris-borde);
   border-bottom-width: 1px;
-}
-
-.margin-bot {
-  margin-bottom: 16px;
 }
 
 .box-display {
@@ -213,5 +235,12 @@ ul {
 }
 
 .blue-text {
-  color: #0366d6;
+  color: var(--auzl-electrico);
+}
+
+.box-title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--gris-borde);
+  margin-bottom: 16px;
 }
