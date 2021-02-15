@@ -15,14 +15,14 @@ html body {
   padding: 0;
 }
 
-/*variable para color gris oscuro*/
+/*variable para colores*/
 
 :root {
   --gris-oscuro: #24292e;
-  --auzl-electrico: #0366d6;
   --gris-medio: #586069;
   --gris-claro: #fafbfc;
   --gris-borde: #e1e4e8;
+  --auzl-electrico: #0366d6;
 }
 
 /*aplicación fuente de letra genérica del tipo sans-serif ya que no pude ubicar la misma que usa la página*/
@@ -90,13 +90,6 @@ a {
 
 .strong-weight {
   font-weight: 600;
-}
-
-.title-padding {
-  padding-top: 16px;
-  padding-bottom: 32px;
-  padding-right: 32px;
-  padding-left: 32px;
 }
 
 .margin-bot {
@@ -238,9 +231,43 @@ ul {
   color: var(--auzl-electrico);
 }
 
+.box-padding {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
 .box-title {
   padding-bottom: 10px;
   border-bottom: 1px solid;
   border-bottom-color: var(--gris-borde);
   margin-bottom: 16px;
+}
+
+.h1-size {
+  font-size: 32px;
+}
+
+.h2-size {
+  font-size: 16px;
+}
+
+.border-inf {
+  border-bottom: 1px solid;
+  border-bottom-color: var(--gris-borde)
+}
+
+.section-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.div-padding {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.font-div {
+  font-size: 12px;
 }
