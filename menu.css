@@ -1,0 +1,59 @@
+input {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: var(--gris-medio);
+  background-color: var(--gris-oscuro);
+}
+
+.expandible-menu {
+  background-color: var(--gris-oscuro);
+  border: none;
+  padding: 0;
+}
+
+/*pseudoclase para enfocar el boton del menú expandible*/
+
+.expandible-menu:focus {
+  background-color: var(--gris-oscuro);
+}
+
+/*display none para ocultar el elemento cuya clase es .menu-content*/
+
+.menu-content {
+  display: none;
+  background-color: var(--gris-oscuro);
+}
+
+/*display block y position absolute para el elemento que contiene la clase .menu-content precedida por el 
+elemento que contiene la clase .expandible-menu que a su vez tiene la pseudoclase :focus*/
+
+/*hubiese querido lograr que el menú se ubique debajo del header, desplazando todo lo demás,
+pero no logré lograr ese logro (?)*/
+
+.expandible-menu:focus + .menu-content {
+  display: block;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  right: 0;
+}
+
+.ul-style {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.li-content {
+  padding: 8px 0;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--gris-medio);
+}
+
+/*a todos los hipervínculos precedidos por los elementos que contengan la clase .li-content*/
+
+.li-content a {
+  color: #ffffff
+}
+
