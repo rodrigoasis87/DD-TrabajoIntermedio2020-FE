@@ -23,6 +23,10 @@
   font-weight: 500;
 }
 
+.specific-button:hover {
+  background-color: rgb(217 218 220);
+}
+
 .specific-button-2 {
   display: flex;
   justify-content: center;
@@ -37,6 +41,15 @@
   border-color: rgb(217 218 220);
   background-color: var(--gris-claro);
   cursor: pointer;
+}
+
+.specific-button-2:hover {
+  background-color: rgb(217 218 220);
+}
+
+.specific-button-2:focus {
+  background-color: rgb(217 218 220);
+  outline: none;
 }
 
 .mini-button {
