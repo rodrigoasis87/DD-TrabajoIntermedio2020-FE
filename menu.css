@@ -16,6 +16,7 @@ input {
 
 .expandible-menu:focus {
   background-color: var(--gris-oscuro);
+  outline: none;
 }
 
 /*display none para ocultar el elemento cuya clase es .menu-content*/
@@ -51,9 +52,38 @@ pero no logré lograr ese logro (?)*/
   border-bottom-color: var(--gris-medio);
 }
 
-/*a todos los hipervínculos precedidos por los elementos que contengan la clase .li-content*/
+/*para todos los hipervínculos precedidos por los elementos que contengan la clase .li-content*/
 
 .li-content a {
   color: #ffffff
 }
 
+.main-menu {
+  display: none;
+  background-color: #ffffff;
+}
+
+.specific-button-2:focus + .main-menu {
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 338px;
+  width: 160px;
+  height: 160px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--gris-borde);
+  padding: 8px 0;
+}
+
+.top-div {
+  padding: 8px 16px 16px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--gris-borde);
+}
+
+.sub-div {
+  padding: 16px 8px 16px 16px;
+  font-size: 14px;
+}
