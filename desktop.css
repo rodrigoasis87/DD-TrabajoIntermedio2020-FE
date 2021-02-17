@@ -1,0 +1,75 @@
+@media (min-width:770px) {
+
+  .section-desktop-1 {
+    display: block;
+    position: relative;
+    width: 73%;
+    border: none;
+  }
+
+  .section-desktop-2 {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid;
+    border-color: var(--gris-borde);
+    border-radius: 6px;
+  }
+
+  .section-desktop-3 {
+    display: block;
+    position: absolute;
+    width: 28%;
+    top: 250px;
+    right: -16px;
+  }
+
+  .button-desktop-1 {
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+  }
+
+  .button-desktop-2 {
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 200px;
+  }
+
+  .specific-button-2:focus + .main-menu {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 33px;
+    width: 160px;
+    height: 160px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--gris-borde);
+    padding: 8px 0;
+  }
+
+  .div-padding-1 {
+    padding: 16px;
+    width: 50%;
+  }
+
+  .section-padding-1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
+
+
+@media (max-width:770) {
+  
+  .div-desktop {
+    display: none;
+  }
+  
+}
