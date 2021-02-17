@@ -1,7 +1,9 @@
 /*importación archivo css para definiciones de botones*/
 
-@import "buttons.css";
 @import "menu.css";
+@import "desktop.css";
+@import "buttons.css";
+
 
 /*reseteo general de las dimensiones y límites de la página*/
 
@@ -63,7 +65,7 @@ a {
   border-bottom-width: 1px;
 }
 
-/*márgenes genéricos para divs contenedores en secciones*/
+/*márgenes, paddings, bordes genéricos para divs contenedores en secciones, cuadros y algunos botones*/
 
 .box-size {
   padding-left: 16px;
@@ -323,3 +325,6 @@ y colocarlo a la derecha utilizando el porcentaje en el que termina el block ant
   width: 10px;
 }
 
+.section-padding-1 {
+  padding: 16px;
+}
