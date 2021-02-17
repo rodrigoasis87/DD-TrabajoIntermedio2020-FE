@@ -35,6 +35,8 @@ Reutilicé cuanta clase pude reutilizar. Algo que también me surgió fue lo sig
 
 En esta nueva línea de trabajo más ordenada y criteriosa, busqué terminar de maquetar el MobileFirst, sabiendo que luego tendría que aplicar MediaQueries para llevar los elementos a la configuración Desktop. 
 
+Creé para las nuevas tareas de menú expandibles y mediaqueries. Inmediatamente las ubiqué en las primeras líneas de la hoja style.css, y luego noté que tendría que haberlas ubicado al menos por debajo del reseteo de la página, por eso los valores de posicionamiento no contemplan los valores de reseteo.
+
 Una vez terminado, comencé a implementar los menú expandibles. Sé que eran 4, pero me concentré en dos, por el tiempo que me quedaba (cronológicamente ya estamos en este fin de semana largo). Me hubiese gustado dedicar tiempo a explorar animaciones como transition, pero no llegué. 
 
 En el primero, que se desprende del header, traté de encontrar opciones de posicionamiento que desplazaran el resto de la hoja, pero no encontré o no me funcionaron. Por eso acudí a position:absolute, entendiendo que no es la mejor opción. Dentro de este menú, incorporé un <input> como cuadro de búsqueda. Las demás propiedades aplicadas cumplen las funciones de dar al menú la apariencia apropiada, con fondo gris oscuro y las separaciones correspondientes entre líneas.
