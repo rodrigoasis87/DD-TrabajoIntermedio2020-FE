@@ -1,0 +1,16 @@
+main, footer, .grey-section, .box-size, .generic-button, .specific-button-2, .box-style-sup {
+  background-color: var(--gris-oscuro);
+}
+
+.li-block {
+  background-color: var(--gris-oscuro);
+  color: var(--gris-claro)
+}
+
+.li-block:hover {
+  color: var(--gris-claro)
+}
+
+h2, p, .font-div, .generic-button, .specific-button-2, .text-style, .h1-size {
+  color: var(--gris-claro)
+}
