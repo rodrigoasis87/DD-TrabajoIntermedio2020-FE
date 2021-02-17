@@ -1,9 +1,8 @@
-/*importación archivo css para definiciones de botones*/
+/*importación archivo css para definiciones de botones, menú y desktop*/
 
 @import "menu.css";
 @import "desktop.css";
 @import "buttons.css";
-
 
 /*reseteo general de las dimensiones y límites de la página*/
 
