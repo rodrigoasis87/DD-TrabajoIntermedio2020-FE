@@ -14,14 +14,7 @@ Proceso del trabajo intermedio: Maqueta de la página Github.
 
 Todo comenzó... algún tiempo atrás en la isl-- no, mentira.
 
-Bueno, voy a intentar hacer una breve reconstrucción cronológica de mi proceso:
-
-Lo primero, bastante tiempo atrás, en diciembre, fue leer detalladamente la consigna y, acto seguido, realizar un análisis
-en papel, dibujando lo que sería la estructura en HTML. Hasta ahí todo bien. Paréntesis:
-
-(Una vez realizado ese incipiente análisis, esto no es excusa, me pasaron cosas muy complicadas a nivel personal que literalmente no me dejaron volver a poner cabeza a esto. Muy brevemente, y perdón por comentar cuestiones extracurriculares, pero es para que me entiendas, quedé envuelto en un enriedo amoroso con una piba que viajó a resolver su situación con su pareja a EEUU, y un día parecía que se volvía, otro que se quedaba, y así durante varias semanas. Sinceramente el nivel de incertidumbre no me dejaba pensar en otra cosa y la angustia vencía a la voluntad de codear. Ya está todo bastante encaminado por suerte, pero fue bastante complicado. No me hubiese imaginado jamás encontrarme en una situación así, pero bueno, a veces nos pasan cosas que no elegimos y que nos exceden, ia tú sabe. Ah, y también estuve estas últimas dos semanas con covid, como para terminar de pasarla joya, je.)
-
-Retomo lo curricular.
+Narración del proceso:
 
 Luego de armar la estructura en HTML, ya tiempo después de haber leído la consigna, directamente empecé a poner clases y diseñar los estilos. Acá los primeros aprendizajes (que vinieron unas semanas después): por un lado, que la etapa de análisis no se reduce exclusivamente a diagramar la hoja en HTML, sino que tendría que haber hecho un análisis integral de todo, incluyendo CSS y también las consignas, porque tiempo después de empezar a codear en CSS, retomé las consignas y me dí cuenta de que estaba omitiendo muchas cosas. Codeando en CSS llegué hasta el <nav> (donde se encuentra el listado de opciones en horizontal), y hasta ahí me concentré más que nada en realizar una réplica lo más estéticamente idéntica posible. Tal vez no era eso lo más importante, sino la reutilización de clases, las hojas de estilo bien separadas, e incluso haber forkeado, je. Empecé creando un repositorio sin haber forkeado. Luego sí, hice el fork y copié los archivos en el nuevo repo. Borré los archivos en la pc, no sé si aún así quedan en el repo, creo que sí, por las dudas te paso el link. Tampoco fui realizando esta redacción a medida que tomaba decisiones. Me hubiese gustado hacerlo así porque eso también te va alertando sobre las decisiones que vas tomando. Queda para la próxima.
 
